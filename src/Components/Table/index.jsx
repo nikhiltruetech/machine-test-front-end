@@ -3,7 +3,6 @@ const UserTable = ({ userDetails }) => {
   const { name, email, phone } = userDetails;
   return (
     <div>
-      {console.log("user", userDetails)}
       <Table striped bordered hover size="sm">
         <thead>
           <tr>
